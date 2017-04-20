@@ -3,7 +3,7 @@
 
 	// Your starting point. Enjoy the ride!
 
-	angular
+	/*angular
 		.module('todo', [])
 		.controller('TodoController', ['$scope', function($scope){
 			
@@ -20,6 +20,8 @@
 
 			// 1 展示任务列表
 
-		}]);
+		}]);*/
+	angular
+		.module('todo', ['todo.controller','todo.service'])
 
 })(angular);
